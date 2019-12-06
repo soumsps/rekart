@@ -1,7 +1,5 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { connect } from 'react-redux';
-
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
@@ -9,6 +7,8 @@ import SignInAndSignUPPages from './pages/sign-in-and-sign-up/sign-in-and-sign-u
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
+// Redux related imports
+import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.action';
 
 import './App.css';
