@@ -16,7 +16,8 @@
     "redux-persist": "^6.0.0",
     "reselect": "^4.0.0",
     "source-map-explorer": "^2.2.2",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "antd": "4.8.2"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
